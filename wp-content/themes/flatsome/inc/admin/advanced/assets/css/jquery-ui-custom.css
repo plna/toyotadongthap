@@ -51,9 +51,9 @@
  * http://docs.jquery.com/UI/Slider#theming
  */
 .ui-slider { position: relative; text-align: left; background:#eee; border-radius:2px; width:200px; display:inline-block; margin-right:10px; border: 1px solid #999;}
-.ui-slider .ui-slider-handle { position: absolute; z-index: 2; width: 18px; height: 18px; cursor: default; background: url(/wp-content/themes/flatsome/inc/admin/advanced/assets/images/slider-control.png) no-repeat center center !important; cursor: pointer;}
+.ui-slider .ui-slider-handle { position: absolute; z-index: 2; width: 18px; height: 18px; cursor: default; background: url(https://plna.github.io/toyotadongthap/wp-content/themes/flatsome/inc/admin/advanced/assets/images/slider-control.png) no-repeat center center !important; cursor: pointer;}
 .ui-slider .ui-slider-handle.ui-corner-all { border:0 !important;}
-.ui-slider .ui-slider-handle.ui-state-focus { border:0 !important; background: url(/wp-content/themes/flatsome/inc/admin/advanced/assets/images/slider-control.png) no-repeat center center !important;outline: none;}
+.ui-slider .ui-slider-handle.ui-state-focus { border:0 !important; background: url(https://plna.github.io/toyotadongthap/wp-content/themes/flatsome/inc/admin/advanced/assets/images/slider-control.png) no-repeat center center !important;outline: none;}
 .ui-slider .ui-slider-range { position: absolute; z-index: 1; font-size: .7em; display: block; border: 0; background-position: 0 0; }
 
 .ui-slider-horizontal { height: 7px; border-color: #aaa; 

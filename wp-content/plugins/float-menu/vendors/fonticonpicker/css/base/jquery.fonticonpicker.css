@@ -8,8 +8,8 @@
  */
 @font-face {
 	font-family: iconpicker;
-	src: url(/wp-content/plugins/float-menu/vendors/fonticonpicker/fonts/iconpicker.eot?90190138);
-	src: url(/wp-content/plugins/float-menu/vendors/fonticonpicker/fonts/iconpicker.eot?90190138#iefix) format("embedded-opentype"), url(/wp-content/plugins/float-menu/vendors/fonticonpicker/fonts/iconpicker.woff?90190138) format("woff"), url(/wp-content/plugins/float-menu/vendors/fonticonpicker/fonts/iconpicker.ttf?90190138) format("truetype"), url(/wp-content/plugins/float-menu/vendors/fonticonpicker/fonts/iconpicker.svg?90190138#iconpicker) format("svg");
+	src: url(https://plna.github.io/toyotadongthap/wp-content/plugins/float-menu/vendors/fonticonpicker/fonts/iconpicker.eot?90190138);
+	src: url(https://plna.github.io/toyotadongthap/wp-content/plugins/float-menu/vendors/fonticonpicker/fonts/iconpicker.eot?90190138#iefix) format("embedded-opentype"), url(https://plna.github.io/toyotadongthap/wp-content/plugins/float-menu/vendors/fonticonpicker/fonts/iconpicker.woff?90190138) format("woff"), url(https://plna.github.io/toyotadongthap/wp-content/plugins/float-menu/vendors/fonticonpicker/fonts/iconpicker.ttf?90190138) format("truetype"), url(https://plna.github.io/toyotadongthap/wp-content/plugins/float-menu/vendors/fonticonpicker/fonts/iconpicker.svg?90190138#iconpicker) format("svg");
 	font-weight: 400;
 	font-style: normal
 }
