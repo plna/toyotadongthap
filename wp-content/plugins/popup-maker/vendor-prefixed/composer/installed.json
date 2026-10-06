@@ -1,0 +1,186 @@
+{
+    "packages": {
+        "0": {
+            "name": "code-atlantic/prerequisite-checks",
+            "version": "1.3.1",
+            "version_normalized": "1.3.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/code-atlantic/prerequisite-checks.git",
+                "reference": "60c45fe359cc6c4b3a2c58f1d8ae53112ed4cea1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/code-atlantic/prerequisite-checks/zipball/60c45fe359cc6c4b3a2c58f1d8ae53112ed4cea1",
+                "reference": "60c45fe359cc6c4b3a2c58f1d8ae53112ed4cea1",
+                "shasum": ""
+            },
+            "time": "2023-12-20T06:35:21+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "PopupMaker\\Vendor\\CodeAtlantic\\PrerequisiteChecks\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "description": "WordPress prerequisite checks for plugins and themes",
+            "support": {
+                "issues": "https://github.com/code-atlantic/prerequisite-checks/issues",
+                "source": "https://github.com/code-atlantic/prerequisite-checks/tree/1.3.1"
+            },
+            "install-path": "../code-atlantic/prerequisite-checks"
+        },
+        "1": {
+            "name": "code-atlantic/wp-autoloader",
+            "version": "1.1.0",
+            "version_normalized": "1.1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/code-atlantic/wp-autoloader.git",
+                "reference": "fc53e1e327bb02c4cff04b5a719326d582056eff"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/code-atlantic/wp-autoloader/zipball/fc53e1e327bb02c4cff04b5a719326d582056eff",
+                "reference": "fc53e1e327bb02c4cff04b5a719326d582056eff",
+                "shasum": ""
+            },
+            "time": "2025-06-02T06:39:53+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "PopupMaker\\Vendor\\CodeAtlantic\\Autoloader\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "description": "A helper class to autoload composer deps in WordPress plugins",
+            "support": {
+                "issues": "https://github.com/code-atlantic/wp-autoloader/issues",
+                "source": "https://github.com/code-atlantic/wp-autoloader/tree/v1.1.0"
+            },
+            "install-path": "../code-atlantic/wp-autoloader"
+        },
+        "3": {
+            "name": "pimple/pimple",
+            "version": "v3.5.0",
+            "version_normalized": "3.5.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/silexphp/Pimple.git",
+                "reference": "a94b3a4db7fb774b3d78dad2315ddc07629e1bed"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/silexphp/Pimple/zipball/a94b3a4db7fb774b3d78dad2315ddc07629e1bed",
+                "reference": "a94b3a4db7fb774b3d78dad2315ddc07629e1bed",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2.5",
+                "psr/container": "^1.1 || ^2.0"
+            },
+            "require-dev": {
+                "symfony/phpunit-bridge": "^5.4@dev"
+            },
+            "time": "2021-10-28T11:13:42+00:00",
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.4.x-dev"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-0": {
+                    "PopupMaker\\Vendor\\Pimple": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                }
+            ],
+            "description": "Pimple, a simple Dependency Injection Container",
+            "homepage": "https://pimple.symfony.com/",
+            "keywords": [
+                "container",
+                "dependency injection"
+            ],
+            "support": {
+                "source": "https://github.com/silexphp/Pimple/tree/v3.5.0"
+            },
+            "install-path": "../pimple/pimple"
+        },
+        "4": {
+            "name": "psr/container",
+            "version": "2.0.2",
+            "version_normalized": "2.0.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/container.git",
+                "reference": "c71ecc56dfe541dbd90c5360474fbc405f8d5963"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/container/zipball/c71ecc56dfe541dbd90c5360474fbc405f8d5963",
+                "reference": "c71ecc56dfe541dbd90c5360474fbc405f8d5963",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.4.0"
+            },
+            "time": "2021-11-05T16:47:00+00:00",
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0.x-dev"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "PopupMaker\\Vendor\\Psr\\Container\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "https://www.php-fig.org/"
+                }
+            ],
+            "description": "Common Container Interface (PHP FIG PSR-11)",
+            "homepage": "https://github.com/php-fig/container",
+            "keywords": [
+                "PSR-11",
+                "container",
+                "container-interface",
+                "container-interop",
+                "psr"
+            ],
+            "support": {
+                "issues": "https://github.com/php-fig/container/issues",
+                "source": "https://github.com/php-fig/container/tree/2.0.2"
+            },
+            "install-path": "../psr/container"
+        }
+    },
+    "dev": false,
+    "dev-package-names": []
+}

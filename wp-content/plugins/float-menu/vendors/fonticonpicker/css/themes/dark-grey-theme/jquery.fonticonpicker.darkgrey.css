@@ -1,0 +1,157 @@
+/*!
+ * CSS files for fontIconPicker
+ * 
+ * @license MIT
+ * @version 3.1.1
+ * {@link https://github.com/micc83/fontIconPicker}
+ * 
+ */
+.icons-selector.fip-darkgrey {
+	font-size: 16px
+}
+
+.icons-selector.fip-darkgrey .selector {
+	border: 0 none;
+	background-color: transparent;
+	width: 102px
+}
+
+.icons-selector.fip-darkgrey .selector-button {
+	background-color: #eeeeee;
+	border: 1px solid #cccccc;
+	border-radius: 0 4px 4px 0;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#eeeeee), to(#dddddd));
+	background-image: linear-gradient(#eeeeee, #dddddd);
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	width: 41px
+}
+
+.icons-selector.fip-darkgrey .selector-button i {
+	color: #aaaaaa;
+	text-shadow: 0 1px 0 #ffffff
+}
+
+.icons-selector.fip-darkgrey .selector-button:hover {
+	background-color: #f1f1f1;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#f1f1f1), to(#dddddd));
+	background-image: linear-gradient(#f1f1f1, #dddddd)
+}
+
+.icons-selector.fip-darkgrey .selector-button:hover i {
+	color: #999999
+}
+
+.icons-selector.fip-darkgrey .selector-button:active {
+	background-color: #ffffff;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#f1f1f1), to(#eeeeee));
+	background-image: linear-gradient(#f1f1f1, #eeeeee)
+}
+
+.icons-selector.fip-darkgrey .selected-icon {
+	background-color: #ffffff;
+	border: 1px solid #cccccc;
+	border-right: 0 none;
+	-webkit-box-shadow: inset -1px 0 2px #dddddd;
+	box-shadow: inset -1px 0 2px #dddddd;
+	border-radius: 4px 0 0 4px;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box
+}
+
+.icons-selector.fip-darkgrey .selected-icon i {
+	color: #404040
+}
+
+.icons-selector.fip-darkgrey .selector-popup {
+	-webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .04);
+	box-shadow: 0 1px 1px rgba(0, 0, 0, .04);
+	border: 1px solid #cccccc;
+	border-radius: 4px
+}
+
+.icons-selector.fip-darkgrey .selector-category select, .icons-selector.fip-darkgrey .selector-search input[type=text] {
+	border: 1px solid #dddddd;
+	color: #404040;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	outline: none;
+	border-radius: 4px
+}
+
+.icons-selector.fip-darkgrey .selector-category select:focus, .icons-selector.fip-darkgrey .selector-search input[type=text]:focus {
+	border-color: #cccccc;
+	-webkit-box-shadow: 0 0 2px #cccccc;
+	box-shadow: 0 0 2px #cccccc
+}
+
+.icons-selector.fip-darkgrey input::-webkit-input-placeholder {
+	color: #cccccc !important
+}
+
+.icons-selector.fip-darkgrey input:-ms-input-placeholder, .icons-selector.fip-darkgrey input::-ms-input-placeholder {
+	color: #cccccc !important
+}
+
+.icons-selector.fip-darkgrey input::placeholder {
+	color: #cccccc !important
+}
+
+.icons-selector.fip-darkgrey .selector-search i {
+	color: #cccccc
+}
+
+.icons-selector.fip-darkgrey .fip-icons-container {
+	background-color: #ffffff;
+	border: 1px solid #cccccc;
+	border-radius: 4px
+}
+
+.icons-selector.fip-darkgrey .fip-icons-container .loading {
+	color: #dddddd
+}
+
+.icons-selector.fip-darkgrey .fip-box {
+	border: 1px solid #dddddd;
+	border-radius: 2px
+}
+
+.icons-selector.fip-darkgrey .fip-box:hover {
+	background-color: #eeeeee;
+	border-color: #cccccc;
+	-webkit-box-shadow: 0 0 2px #aaaaaa, 0 0 2px #ffffff inset;
+	box-shadow: 0 0 2px #aaaaaa, inset 0 0 2px #ffffff;
+	font-size: 1.6em;
+	text-shadow: 0 0 1px #ffffff
+}
+
+.icons-selector.fip-darkgrey .selector-footer, .icons-selector.fip-darkgrey .selector-footer i {
+	color: #666666
+}
+
+.icons-selector.fip-darkgrey .selector-arrows i:hover {
+	color: #999999
+}
+
+.icons-selector.fip-darkgrey span.current-icon, .icons-selector.fip-darkgrey span.current-icon:hover {
+	background-color: #2ea2cc;
+	color: #ffffff;
+	border: 1px solid #298cba;
+	-webkit-box-shadow: 0 0 2px #298cba;
+	box-shadow: 0 0 2px #298cba
+}
+
+.icons-selector.fip-darkgrey span.current-icon:hover i, .icons-selector.fip-darkgrey span.current-icon i {
+	color: #ffffff;
+	text-shadow: 0 0 1px #666666
+}
+
+.icons-selector.fip-darkgrey .icons-picker-error i:before {
+	color: #eeeeee
+}
+
+.icons-selector.fip-darkgrey .fip-box, .icons-selector.fip-darkgrey .selector-button, .icons-selector.fip-darkgrey .selector-category select, .icons-selector.fip-darkgrey .selector-search input[type=text] {
+	-webkit-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out
+}
+
